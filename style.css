@@ -14,5 +14,26 @@ body {
 .pravy    { background-color: #e74c3c; }
 .paticka  { background-color: #9b59b6; }
 
-/* ------------- pod čáru přijdou tvé styly ------------- */
+.kontejner {
+	display: flex;
+	
+	
 
+}
+.sloupec:first-child{
+	order:2;
+	flex-grow: 1;
+	
+}
+.sloupec:last-child{
+	order:3;
+	width: 150px;
+	flex-shrink: 0;
+	
+
+}
+.sloupec:nth-child(2){
+	width: 200px;
+	flex-shrink: 0;
+}
+/* ------------- pod čáru přijdou tvé styly ------------- */
